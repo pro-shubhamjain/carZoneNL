@@ -1,0 +1,580 @@
+{
+    "brands": {
+        "brand": [
+            {
+                "update": "2022-04-14 16:44:04",
+                "name": "Lotus",
+                "id": "78",
+                "models": {
+                    "model": [
+                        {
+                            "update": "2024-07-02 11:48:44",
+                            "name": "Emeya",
+                            "id": "3465",
+                            "generations": {
+                                "generation": [
+                                    {
+                                        "prototype": "0",
+                                        "update": "2024-07-02 11:49:30",
+                                        "name": "Emeya",
+                                        "modelYear": "2024",
+                                        "id": "10084",
+                                        "images": {
+                                            "image": [
+                                                {
+                                                    "id": "161964",
+                                                    "update": "2025-03-17 15:00:46",
+                                                    "small": "https://api.auto-data.net/images/f68/Lotus-Emeya_thumb_1.jpg",
+                                                    "big": "https://api.auto-data.net/images/f68/Lotus-Emeya_2.jpg",
+                                                    "attribution": "&amp;copy; Ivaylo Aleksandrov - ScChannelBg &amp;amp; Auto-Data.net"
+                                                },
+                                                {
+                                                    "id": "161954",
+                                                    "update": "2025-03-17 15:00:37",
+                                                    "small": "https://api.auto-data.net/images/f94/Lotus-Emeya_thumb.jpg",
+                                                    "big": "https://api.auto-data.net/images/f94/Lotus-Emeya.jpg",
+                                                    "attribution": "&amp;copy; Ivaylo Aleksandrov - ScChannelBg &amp;amp; Auto-Data.net"
+                                                }
+                                            ]
+                                        },
+                                        "modifications": {
+                                            "modification": [
+                                                {
+                                                    "id": "52138",
+                                                    "update": "2024-07-02 16:16:17",
+                                                    "brand": "Lotus",
+                                                    "model": "Emeya",
+                                                    "generation": "Emeya",
+                                                    "engine": "R 102 kWh (918 Hp) AWD Electric",
+                                                    "powertrain": "BEV (Electric Vehicle)",
+                                                    "doors": "5",
+                                                    "doorsMin": "5",
+                                                    "maxspeed": "256",
+                                                    "acceleration": "2.8",
+                                                    "yearstart": "2024",
+                                                    "coupe": "Liftback",
+                                                    "places": "5",
+                                                    "placesMin": "5",
+                                                    "length": "5139",
+                                                    "widthFoldedMirrors": "2123",
+                                                    "widthOpenedMirrors": "2241",
+                                                    "height": "1459",
+                                                    "heightMin": "1459",
+                                                    "wheelbase": "3069",
+                                                    "Cd": "0.21-0.22",
+                                                    "CdMin": "0.21",
+                                                    "CdMax": "0.22",
+                                                    "rideHeight": "141",
+                                                    "rideHeightMin": "141",
+                                                    "luggageMin": "426-509",
+                                                    "luggageMinMin": "426",
+                                                    "luggageMinMax": "509",
+                                                    "luggageMax": "1388",
+                                                    "luggageMaxMin": "1388",
+                                                    "batteryCapacity": "102",
+                                                    "chports": {
+                                                        "chport": [
+                                                            {
+                                                                "type": "Type 2 AC (Mennekes, SAE J3068, IEC 62196-2)",
+                                                                "location": "Rear left",
+                                                                "market": "Europe",
+                                                                "availability": "standard"
+                                                            },
+                                                            {
+                                                                "type": "CCS Type 2 DC (SAE J3068, IEC 62196-3)",
+                                                                "location": "Rear left",
+                                                                "market": "Europe",
+                                                                "availability": "standard"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "standardEVr": "WLTP",
+                                                    "allElectricRange": "435",
+                                                    "allElectricRangeMin": "435",
+                                                    "electricMotorPosition": "Front axle, Transverse",
+                                                    "electricMotor2Position": "Rear axle, Transverse",
+                                                    "powerSystem": "918",
+                                                    "powerSystemHp": "918",
+                                                    "torqueSystem": "985",
+                                                    "torqueSystemNm": "985",
+                                                    "fuel": "Electricity",
+                                                    "drive": "All wheel drive (4x4)",
+                                                    "gearboxAT": "2",
+                                                    "frontSuspension": "Independent multi-link suspension",
+                                                    "rearSuspension": "Independent multi-link suspension",
+                                                    "frontBrakes": "Ventilated discs",
+                                                    "frontBrakesSize": "412",
+                                                    "rearBrakes": "Ventilated discs",
+                                                    "rearBrakesSize": "397",
+                                                    "abs": "1",
+                                                    "steeringType": "Steering rack and pinion",
+                                                    "powerSteering": "Electric Steering",
+                                                    "curbWeight": "2590",
+                                                    "curbWeightMin": "2590",
+                                                    "tireSize": {
+                                                        "all": "305/35 R21; 305/30 R22;265/40 R21; 265/35 R22",
+                                                        "tire": [
+                                                            {
+                                                                "size": "305/35 R21",
+                                                                "W": "305",
+                                                                "H": "35",
+                                                                "D": "21"
+                                                            },
+                                                            {
+                                                                "size": "305/30 R22",
+                                                                "W": "305",
+                                                                "H": "30",
+                                                                "D": "22"
+                                                            },
+                                                            {
+                                                                "size": "265/40 R21",
+                                                                "W": "265",
+                                                                "H": "40",
+                                                                "D": "21"
+                                                            },
+                                                            {
+                                                                "size": "265/35 R22",
+                                                                "W": "265",
+                                                                "H": "35",
+                                                                "D": "22"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "rimsSize": {
+                                                        "all": "11.5J x 21; 11.5J x 22;9.5J x 21; 9.5J x 22",
+                                                        "rim": [
+                                                            "11.5J x 21",
+                                                            "11.5J x 22",
+                                                            "9.5J x 21",
+                                                            "9.5J x 22"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "52137",
+                                                    "update": "2024-07-02 16:16:17",
+                                                    "brand": "Lotus",
+                                                    "model": "Emeya",
+                                                    "generation": "Emeya",
+                                                    "engine": "S 102 kWh (612 Hp) AWD Electric",
+                                                    "powertrain": "BEV (Electric Vehicle)",
+                                                    "doors": "5",
+                                                    "doorsMin": "5",
+                                                    "maxspeed": "250",
+                                                    "acceleration": "4.2",
+                                                    "yearstart": "2024",
+                                                    "coupe": "Liftback",
+                                                    "places": "5",
+                                                    "placesMin": "5",
+                                                    "length": "5139",
+                                                    "widthFoldedMirrors": "2123",
+                                                    "widthOpenedMirrors": "2241",
+                                                    "height": "1459",
+                                                    "heightMin": "1459",
+                                                    "wheelbase": "3069",
+                                                    "Cd": "0.21-0.22",
+                                                    "CdMin": "0.21",
+                                                    "CdMax": "0.22",
+                                                    "rideHeight": "141",
+                                                    "rideHeightMin": "141",
+                                                    "luggageMin": "426-509",
+                                                    "luggageMinMin": "426",
+                                                    "luggageMinMax": "509",
+                                                    "luggageMax": "1388",
+                                                    "luggageMaxMin": "1388",
+                                                    "batteryCapacity": "102",
+                                                    "chports": {
+                                                        "chport": [
+                                                            {
+                                                                "type": "Type 2 AC (Mennekes, SAE J3068, IEC 62196-2)",
+                                                                "location": "Rear left",
+                                                                "market": "Europe",
+                                                                "availability": "standard"
+                                                            },
+                                                            {
+                                                                "type": "CCS Type 2 DC (SAE J3068, IEC 62196-3)",
+                                                                "location": "Rear left",
+                                                                "market": "Europe",
+                                                                "availability": "standard"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "standardEVr": "WLTP",
+                                                    "allElectricRange": "540",
+                                                    "allElectricRangeMin": "540",
+                                                    "electricMotorPosition": "Front axle, Transverse",
+                                                    "electricMotor2Position": "Rear axle, Transverse",
+                                                    "powerSystem": "612",
+                                                    "powerSystemHp": "612",
+                                                    "torqueSystem": "710",
+                                                    "torqueSystemNm": "710",
+                                                    "fuel": "Electricity",
+                                                    "drive": "All wheel drive (4x4)",
+                                                    "gearboxAT": "1",
+                                                    "frontSuspension": "Independent multi-link suspension",
+                                                    "rearSuspension": "Independent multi-link suspension",
+                                                    "frontBrakes": "Ventilated discs",
+                                                    "frontBrakesSize": "412",
+                                                    "rearBrakes": "Ventilated discs",
+                                                    "rearBrakesSize": "397",
+                                                    "abs": "1",
+                                                    "steeringType": "Steering rack and pinion",
+                                                    "powerSteering": "Electric Steering",
+                                                    "curbWeight": "2490",
+                                                    "curbWeightMin": "2490",
+                                                    "tireSize": {
+                                                        "all": "305/35 R21; 305/30 R22;265/40 R21; 265/35 R22",
+                                                        "tire": [
+                                                            {
+                                                                "size": "305/35 R21",
+                                                                "W": "305",
+                                                                "H": "35",
+                                                                "D": "21"
+                                                            },
+                                                            {
+                                                                "size": "305/30 R22",
+                                                                "W": "305",
+                                                                "H": "30",
+                                                                "D": "22"
+                                                            },
+                                                            {
+                                                                "size": "265/40 R21",
+                                                                "W": "265",
+                                                                "H": "40",
+                                                                "D": "21"
+                                                            },
+                                                            {
+                                                                "size": "265/35 R22",
+                                                                "W": "265",
+                                                                "H": "35",
+                                                                "D": "22"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "rimsSize": {
+                                                        "all": "11.5J x 21; 11.5J x 22;9.5J x 21; 9.5J x 22",
+                                                        "rim": [
+                                                            "11.5J x 21",
+                                                            "11.5J x 22",
+                                                            "9.5J x 21",
+                                                            "9.5J x 22"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "update": "2022-03-30 08:33:40",
+                            "name": "Eletre",
+                            "id": "3082",
+                            "generations": {
+                                "generation": [
+                                    {
+                                        "prototype": "0",
+                                        "update": "2022-03-30 08:34:51",
+                                        "name": "Eletre",
+                                        "modelYear": "2022",
+                                        "id": "8808",
+                                        "images": {
+                                            "image": [
+                                                {
+                                                    "id": "123481",
+                                                    "update": "2025-03-17 14:58:57",
+                                                    "small": "https://api.auto-data.net/images/f117/Lotus-Eletre_thumb.jpg",
+                                                    "big": "https://api.auto-data.net/images/f117/Lotus-Eletre.jpg",
+                                                    "attribution": "&amp;copy; Ivaylo Aleksandrov - ScChannelBg &amp;amp; Auto-Data.net"
+                                                },
+                                                {
+                                                    "id": "123482",
+                                                    "update": "2025-03-17 14:58:57",
+                                                    "small": "https://api.auto-data.net/images/f77/Lotus-Eletre_thumb.jpg",
+                                                    "big": "https://api.auto-data.net/images/f77/Lotus-Eletre.jpg",
+                                                    "attribution": "&amp;copy; Ivaylo Aleksandrov - ScChannelBg &amp;amp; Auto-Data.net"
+                                                }
+                                            ]
+                                        },
+                                        "modifications": {
+                                            "modification": [
+                                                {
+                                                    "id": "47015",
+                                                    "update": "2025-04-11 12:24:32",
+                                                    "brand": "Lotus",
+                                                    "model": "Eletre",
+                                                    "generation": "Eletre",
+                                                    "engine": "R 112 kWh (905 Hp) Dual Motor AWD",
+                                                    "powertrain": "BEV (Electric Vehicle)",
+                                                    "doors": "5",
+                                                    "doorsMin": "5",
+                                                    "maxspeed": "265",
+                                                    "acceleration": "2.95",
+                                                    "yearstart": "2022",
+                                                    "coupe": "SUV",
+                                                    "places": "5",
+                                                    "placesMin": "5",
+                                                    "length": "5103",
+                                                    "widthOpenedMirrors": "2231",
+                                                    "height": "1636",
+                                                    "heightMin": "1636",
+                                                    "wheelbase": "3019",
+                                                    "rideHeight": "194",
+                                                    "rideHeightMin": "194",
+                                                    "luggageMin": "688",
+                                                    "luggageMinMin": "688",
+                                                    "luggageMax": "1532",
+                                                    "luggageMaxMin": "1532",
+                                                    "batteryCapacity": "112",
+                                                    "chports": {
+                                                        "chport": [
+                                                            {
+                                                                "type": "CCS Type 2 DC (SAE J3068, IEC 62196-3)",
+                                                                "location": "Front left",
+                                                                "availability": "standard"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "standardEVr": "WLTP",
+                                                    "allElectricRange": "490",
+                                                    "allElectricRangeMin": "490",
+                                                    "electricMotorPosition": "Front axle, Transverse",
+                                                    "electricMotor2Position": "Rear axle, Transverse",
+                                                    "powerSystem": "905",
+                                                    "powerSystemHp": "905",
+                                                    "torqueSystem": "985",
+                                                    "torqueSystemNm": "985",
+                                                    "fuel": "Electricity",
+                                                    "drive": "All wheel drive (4x4)",
+                                                    "gearboxAT": "2",
+                                                    "frontSuspension": "Double wishbone, Air suspension",
+                                                    "rearSuspension": "Independent multi-link suspension, Air suspension",
+                                                    "frontBrakes": "Ventilated discs",
+                                                    "rearBrakes": "Ventilated discs",
+                                                    "abs": "1",
+                                                    "steeringType": "Steering rack and pinion",
+                                                    "powerSteering": "Electric Steering",
+                                                    "curbWeight": "",
+                                                    "tireSize": {
+                                                        "all": "315/35 R22;275/40 R22",
+                                                        "tire": [
+                                                            {
+                                                                "size": "315/35 R22",
+                                                                "W": "315",
+                                                                "H": "35",
+                                                                "D": "22"
+                                                            },
+                                                            {
+                                                                "size": "275/40 R22",
+                                                                "W": "275",
+                                                                "H": "40",
+                                                                "D": "22"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "rimsSize": {
+                                                        "all": "22",
+                                                        "rim": [
+                                                            "22"
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    "id": "45584",
+                                                    "update": "2025-04-11 12:24:32",
+                                                    "brand": "Lotus",
+                                                    "model": "Eletre",
+                                                    "generation": "Eletre",
+                                                    "engine": "112 kWh (603 Hp) Dual Motor AWD",
+                                                    "powertrain": "BEV (Electric Vehicle)",
+                                                    "doors": "5",
+                                                    "doorsMin": "5",
+                                                    "maxspeed": "258",
+                                                    "acceleration": "4.5",
+                                                    "yearstart": "2022",
+                                                    "coupe": "SUV",
+                                                    "places": "5",
+                                                    "placesMin": "5",
+                                                    "length": "5103",
+                                                    "widthOpenedMirrors": "2231",
+                                                    "height": "1636",
+                                                    "heightMin": "1636",
+                                                    "wheelbase": "3019",
+                                                    "rideHeight": "194",
+                                                    "rideHeightMin": "194",
+                                                    "luggageMin": "688",
+                                                    "luggageMinMin": "688",
+                                                    "luggageMax": "1532",
+                                                    "luggageMaxMin": "1532",
+                                                    "batteryCapacity": "112",
+                                                    "chports": {
+                                                        "chport": [
+                                                            {
+                                                                "type": "Type 2 AC (Mennekes, SAE J3068, IEC 62196-2)",
+                                                                "location": "Front left",
+                                                                "market": "Europe",
+                                                                "availability": "standard"
+                                                            },
+                                                            {
+                                                                "type": "CCS Type 2 DC (SAE J3068, IEC 62196-3)",
+                                                                "location": "Front left",
+                                                                "market": "Europe",
+                                                                "availability": "standard"
+                                                            },
+                                                            {
+                                                                "type": "Type 1 AC (J-Plug, SAE J1772)",
+                                                                "location": "Front left",
+                                                                "market": "North America",
+                                                                "availability": "standard"
+                                                            },
+                                                            {
+                                                                "type": "CCS Type 1 DC (SAE J1772)",
+                                                                "location": "Front left",
+                                                                "market": "North America",
+                                                                "availability": "standard"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "standardEVr": "WLTP",
+                                                    "allElectricRange": "600",
+                                                    "allElectricRangeMin": "600",
+                                                    "electricMotorPosition": "Front axle, Transverse",
+                                                    "electricMotor2Position": "Rear axle, Transverse",
+                                                    "powerSystem": "603",
+                                                    "powerSystemHp": "603",
+                                                    "torqueSystem": "710",
+                                                    "torqueSystemNm": "710",
+                                                    "fuel": "Electricity",
+                                                    "drive": "All wheel drive (4x4)",
+                                                    "gearboxAT": "1",
+                                                    "frontSuspension": "Double wishbone, Air suspension",
+                                                    "rearSuspension": "Independent multi-link suspension, Air suspension",
+                                                    "frontBrakes": "Ventilated discs",
+                                                    "rearBrakes": "Ventilated discs",
+                                                    "abs": "1",
+                                                    "steeringType": "Steering rack and pinion",
+                                                    "powerSteering": "Electric Steering",
+                                                    "standardEVc": "WLTP",
+                                                    "averageEnergyConsumption": "21.5",
+                                                    "averageEnergyConsumptionMin": "21.5",
+                                                    "curbWeight": "",
+                                                    "tireSize": {
+                                                        "all": "315/35 R22;275/40 R22",
+                                                        "tire": [
+                                                            {
+                                                                "size": "315/35 R22",
+                                                                "W": "315",
+                                                                "H": "35",
+                                                                "D": "22"
+                                                            },
+                                                            {
+                                                                "size": "275/40 R22",
+                                                                "W": "275",
+                                                                "H": "40",
+                                                                "D": "22"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "rimsSize": {
+                                                        "all": "22",
+                                                        "rim": [
+                                                            "22"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "update": "2022-04-14 16:44:04",
+                "name": "BMW",
+                "id": "86",
+                "models": {
+                    "model": [
+                        {
+                            "update": "2024-10-29 08:35:25",
+                            "name": "Vision Neue Klasse X",
+                            "id": "3523",
+                            "generations": {
+                                "generation": [
+                                    {
+                                        "prototype": "0",
+                                        "update": "2024-10-29 08:37:04",
+                                        "name": "Vision Neue Klasse X",
+                                        "modelYear": "2024",
+                                        "id": "10240",
+                                        "images": {
+                                            "image": [
+                                                {
+                                                    "id": "157128",
+                                                    "update": "2024-10-29 08:40:20",
+                                                    "small": "https://api.auto-data.net/images/f39/BMW-Vision-Neue-Klasse-X_thumb.jpg",
+                                                    "big": "https://api.auto-data.net/images/f39/BMW-Vision-Neue-Klasse-X.jpg",
+                                                    "attribution": "&amp;copy; Ivaylo Aleksandrov - ScChannelBg &amp;amp; Auto-Data.net"
+                                                },
+                                                {
+                                                    "id": "157129",
+                                                    "update": "2024-10-29 08:40:20",
+                                                    "small": "https://api.auto-data.net/images/f122/BMW-Vision-Neue-Klasse-X_thumb.jpg",
+                                                    "big": "https://api.auto-data.net/images/f122/BMW-Vision-Neue-Klasse-X.jpg",
+                                                    "attribution": "&amp;copy; Ivaylo Aleksandrov - ScChannelBg &amp;amp; Auto-Data.net"
+                                                }
+                                            ]
+                                        },
+                                        "modifications": {
+                                            "modification": []
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "update": "2024-10-29 08:35:19",
+                            "name": "Vision Neue Klasse",
+                            "id": "3522",
+                            "generations": {
+                                "generation": [
+                                    {
+                                        "prototype": "1",
+                                        "update": "2024-10-29 08:36:24",
+                                        "name": "Vision Neue Klasse",
+                                        "modelYear": "2023",
+                                        "id": "10239",
+                                        "images": {
+                                            "image": [
+                                                {
+                                                    "id": "157122",
+                                                    "update": "2024-10-29 08:38:43",
+                                                    "small": "https://api.auto-data.net/images/f77/BMW-Vision-Neue-Klasse_thumb.jpg",
+                                                    "big": "https://api.auto-data.net/images/f77/BMW-Vision-Neue-Klasse.jpg",
+                                                    "attribution": "&amp;copy; Ivaylo Aleksandrov - ScChannelBg &amp;amp; Auto-Data.net"
+                                                },
+                                                {
+                                                    "id": "157123",
+                                                    "update": "2024-10-29 08:38:45",
+                                                    "small": "https://api.auto-data.net/images/f82/BMW-Vision-Neue-Klasse_thumb.jpg",
+                                                    "big": "https://api.auto-data.net/images/f82/BMW-Vision-Neue-Klasse.jpg",
+                                                    "attribution": "&amp;copy; Ivaylo Aleksandrov - ScChannelBg &amp;amp; Auto-Data.net"
+                                                }
+                                            ]
+                                        },
+                                        "modifications": {
+                                            "modification": []
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
