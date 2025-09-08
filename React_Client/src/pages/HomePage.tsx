@@ -1,8 +1,66 @@
-import React from 'react';
 // import { useTranslation } from "react-i18next";
+import React, { useEffect, useState } from 'react';
+import rawData from '../data.json';
+
+interface Car {
+  id: number;
+  name: string;
+  price?: number;
+  year?: number;
+  mileage?: string;
+  fuel?: string;
+  transmission?: string;
+  owner?: string;
+  seller?: string;
+  location?: string;
+  views?: number;
+  updated?: string;
+  images?: string[];
+  specifications?: {
+    economy?: {
+      mileage?: string;
+      serviceCost?: string;
+      fuelType?: string;
+      fuelTank?: string;
+      overDrive?: string;
+      steeringType?: string;
+      turningRadius?: string;
+      alloyWheelSize?: string;
+      noOfDoors?: string;
+    };
+    presentation?: {
+      engine?: string;
+      bhp?: string;
+      cylinders?: string;
+      gears?: string;
+    };
+    features?: {
+      cruiseControl?: string;
+      sunRoof?: string;
+      seatingCapacity?: string;
+      bootSpace?: string;
+    };
+    safety?: {
+      parkingSensor?: string;
+      airbags?: string;
+    };
+  };
+}
 
 const HomePage: React.FC = () => {
   //const { t } = useTranslation();
+
+  const [cars, setCars] = useState<Car[]>([]);
+
+  useEffect(() => {
+    const data = rawData as unknown as { cars?: Car[] };
+
+    if (data && Array.isArray(data.cars)) {
+      setCars(data.cars);
+    } else {
+      console.warn('No cars array found in JSON');
+    }
+  }, []);
 
   return (
     <div className="page-content">
@@ -151,76 +209,27 @@ const HomePage: React.FC = () => {
         </div>
       </div>
 
-      {/* Car Search Section */}
-      <div className="car-searching text-white">
-        <div className="container">
-          <div className="row">
-            <div className="col-xs-12">
-              <div className="section-head style-1">
-                <div className="title-sm text-uppercase">
-                  120+ cars type and brands
-                </div>
-                <h3 className="h3 m-t10">
-                  Search Your{' '}
-                  <span className="text-primary font-weight-900">
-                    Best Cars
-                  </span>
-                </h3>
-                <div className="sep-line"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <form className="searching-form">
-          <div className="container">
-            <div className="row search-row">
-              <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                <div className="form-group">
-                  <label>Car brands</label>
-                  <select className="form-control">
-                    <option>Any Brands</option>
-                    <option>Brand 1</option>
-                    <option>Brand 2</option>
-                    <option>Brand 3</option>
-                    <option>Brand 4</option>
-                  </select>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                <div className="form-group">
-                  <label>Car Type</label>
-                  <select className="form-control">
-                    <option>Any Type</option>
-                    <option>Type 1</option>
-                    <option>Type 2</option>
-                    <option>Type 3</option>
-                    <option>Type 4</option>
-                  </select>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                <div className="form-group">
-                  <label>Car Price</label>
-                  <select className="form-control">
-                    <option>Price low to high</option>
-                    <option>Price high to low</option>
-                  </select>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                <div className="form-group">
-                  <button type="submit" className="site-button">
-                    Search car now
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </form>
+      <div>
+        <ul>
+          {cars.length === 0 && <li>No cars available</li>}
+          {cars.map((car) => (
+            <li key={car.id}>
+              <h2>{car.name}</h2>
+              <p>
+                {car.year ?? 'Year N/A'} • {car.fuel ?? 'Fuel N/A'} •{' '}
+                {car.transmission ?? 'Trans N/A'}
+              </p>
+              <p>Price: {car.price !== undefined ? `$${car.price}` : 'N/A'}</p>
+              {car.images && car.images.length > 0 && (
+                <img
+                  src={car.images[0]}
+                  alt={car.name}
+                  style={{ width: 150, borderRadius: 8 }}
+                />
+              )}
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
