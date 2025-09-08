@@ -9,7 +9,7 @@
 my-project/
 
 ├─ Base_Theme   # === HTML Theme ===   
-├─ client       # === FRONTEND (React) ===
+├─ Client       # === FRONTEND (React) ===
 
 ## 🚗 Car Ownership in the Netherlands
 
