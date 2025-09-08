@@ -1,5 +1,16 @@
 # Car Ownership & Details in the Netherlands
 
+# Git Branch Strategy
+
+- **main** → Stable production-ready branch  
+- **master** → Legacy / backup branch (optional, kept for history)  
+- **feature/*** → For new features (merge into `main` after review)  
+
+my-project/
+
+├─ Base_Theme   # === HTML Theme ===   
+├─ client       # === FRONTEND (React) ===
+
 ## 🚗 Car Ownership in the Netherlands
 
 Buying, registering, and maintaining a car in the Netherlands involves a structured process:
