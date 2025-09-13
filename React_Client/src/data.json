@@ -14,10 +14,8 @@
       "views": 14,
       "updated": "Nov 11",
       "images": [
-        "images/blog/default/thum1.jpg",
-        "images/blog/default/thum2.jpg",
-        "images/blog/default/thum3.jpg",
-        "images/blog/default/thum4.jpg"
+        "https://api.auto-data.net/images/f83/Chrysler-Pacifica-II.jpg",
+        "https://api.auto-data.net/images/f78/Chrysler-Pacifica-II.jpg"
       ],
       "specifications": {
         "economy": {
@@ -43,7 +41,10 @@
           "seatingCapacity": "4",
           "bootSpace": "480 litres"
         },
-        "safety": { "parkingSensor": "Yes", "airbags": "Yes" }
+        "safety": {
+          "parkingSensor": "Yes",
+          "airbags": "Yes"
+        }
       }
     },
     {
@@ -59,7 +60,10 @@
       "location": "New York",
       "views": 25,
       "updated": "Dec 15",
-      "images": ["images/our-work/work/pic1.jpg"],
+      "images": [
+        "https://api.auto-data.net/images/f90/Toyota-Sai-facelift-2013.jpg",
+        "https://api.auto-data.net/images/f121/Toyota-Sai-facelift-2013.jpg"
+      ],
       "specifications": {
         "economy": {
           "mileage": "15 kmpl",
@@ -79,7 +83,10 @@
           "seatingCapacity": "7",
           "bootSpace": "550 litres"
         },
-        "safety": { "parkingSensor": "Yes", "airbags": "Yes" }
+        "safety": {
+          "parkingSensor": "Yes",
+          "airbags": "Yes"
+        }
       }
     }
   ]

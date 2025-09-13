@@ -89,10 +89,16 @@ const Header: React.FC = () => {
                 <li className="active">
                   <Link to="/">
                     {t('common.home')}
-                    <i className="fa fa-chevron-down"></i>
+                    {/* <i className="fa fa-chevron-down"></i> */}
                   </Link>
                 </li>
                 <li>
+                  <Link to="/compare">
+                    {t('common.compare')}
+                    {/* <i className="fa fa-chevron-down"></i> */}
+                  </Link>
+                </li>
+                {/* <li>
                   <Link to="/new">
                     {t('common.new')}
                     <i className="fa fa-chevron-down"></i>
@@ -104,12 +110,7 @@ const Header: React.FC = () => {
                     <i className="fa fa-chevron-down"></i>
                   </Link>
                 </li>
-                <li>
-                  <Link to="/compare">
-                    {t('common.compare')}
-                    <i className="fa fa-chevron-down"></i>
-                  </Link>
-                </li>
+              
                 <li>
                   <Link to="/car-detail">
                     {t('common.carDetail')}
@@ -121,7 +122,7 @@ const Header: React.FC = () => {
                     {t('common.pages')}
                     <i className="fa fa-chevron-down"></i>
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
